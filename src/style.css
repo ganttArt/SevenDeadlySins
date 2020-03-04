@@ -45,7 +45,20 @@ body {
 
 .sins-title {
     font-size: 50px;
+    margin: 0;
 }
+
+.sins-buttons {
+    
+}
+
+/* sins button styles */
+input[type=submit] {
+    font-size: 20px;
+    width: 100px;
+    margin: 20px;
+}
+
 
 .quotes-container {
     background: rgba(255, 255, 255, 0.132);

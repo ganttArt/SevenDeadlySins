@@ -5,7 +5,46 @@ class Sins extends Component {
         return(
             <div className='sins-container'>
                 <h1 className='sins-title'>Sins</h1>
-                <p>Sin buttons here</p>
+                <div className='sins-buttons'>
+                    <form>
+                        <input
+                            className='gluttony-button'
+                            type='submit'
+                            value='Gluttony'
+                        />
+                        <input
+                            className='lust-button'
+                            type='submit'
+                            value='Lust'
+                        />
+                        <input
+                            className='greed-button'
+                            type='submit'
+                            value='Greed'
+                        />
+                        <input
+                            className='pride-button'
+                            type='submit'
+                            value='Pride'
+                        />
+                        <input
+                            className='sloth-button'
+                            type='submit'
+                            value='Sloth'
+                        />
+                        <input
+                            className='wrath-button'
+                            type='submit'
+                            value='Wrath'
+                        />
+                        <input
+                            className='envy-button'
+                            type='submit'
+                            value='Envy'
+                        />
+                    </form>
+                </div>
+                <br/>
             </div>
         )
     }
