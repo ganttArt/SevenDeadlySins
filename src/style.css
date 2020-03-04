@@ -6,3 +6,20 @@ body {
     background-size: cover;  
 }
 
+/* title component */
+.title{
+    border: 1px solid rgba(0, 0, 0, 0.481);
+    background: rgba(255, 255, 255, 0.132);
+    /* padding: 0 10px; */
+    text-align: center;
+    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
+    
+    /* rounds corners */
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  }
+
+.welcome {
+    font-size: 100px;
+}

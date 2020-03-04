@@ -10,7 +10,9 @@ class App extends Component {
     return (
       <div className="app-container">
       <Title/>
+      <br/>
       <Sins/>
+      <br/>
       <Quotes/>
       </div>
     );
