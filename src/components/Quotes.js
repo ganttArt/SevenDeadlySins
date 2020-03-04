@@ -4,8 +4,15 @@ class Quotes extends Component {
     render() {
         return(
             <div className='quotes-container'>
-                <h3 className='quote'>Quote goes here</h3>
-                <p>Random Button Here</p>
+                <br/>
+                <p className='quote'>Quote goes here</p>
+                <form>
+                    <input
+                        className='random_button'
+                        type='submit'
+                        value='Random Quote'
+                    />
+                </form>
             </div>
         )
     }

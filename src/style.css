@@ -69,3 +69,14 @@ input[type=submit] {
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
 }
+
+.quote {
+    background: rgba(233, 233, 233, 0.646);
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}

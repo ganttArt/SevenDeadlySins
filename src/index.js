@@ -9,11 +9,12 @@ class App extends Component {
   render() {
     return (
       <div className="app-container">
-      <Title/>
-      <br/>
-      <Sins/>
-      <br/>
-      <Quotes/>
+        <Title/>
+        <br/>
+        <Sins/>
+        <br/>
+        <br/>
+        <Quotes/>
       </div>
     );
   }
