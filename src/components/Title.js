@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class Title extends Component {
   render() {
     return (
-      <div className="title">
-        <h1 className="welcome">Welcome To Hell</h1>
-        <h2 >Please explore these seven deadly sins</h2>
-        <p>One of them probably brought you here...</p>
+      <div className="title-container">
+        <h1 className="title-welcome">Welcome To Hell</h1>
+        <h3 className="title-welcome-subtitle-1">Please explore these seven deadly sins</h3>
+        <p className ="title-welcome-subtitle-2">One of them probably brought you here...</p>
       </div>
     );
   }

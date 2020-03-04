@@ -6,20 +6,53 @@ body {
     background-size: cover;  
 }
 
-/* title component */
-.title{
-    border: 1px solid rgba(0, 0, 0, 0.481);
+
+.title-container {
     background: rgba(255, 255, 255, 0.132);
-    /* padding: 0 10px; */
     text-align: center;
     box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
     
     /* rounds corners */
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px; 
   }
 
-.welcome {
+.title-welcome {
     font-size: 100px;
+    margin:0;
+}
+
+.title-welcome-subtitle-1 {
+    font-size: 30px;
+    margin:0;
+}
+
+.title-welcome-subtitle-2 {
+    font-size: 18px;
+}
+
+
+.sins-container {
+    background: rgba(255, 255, 255, 0.132);
+    text-align: center;
+    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.sins-title {
+    font-size: 50px;
+}
+
+.quotes-container {
+    background: rgba(255, 255, 255, 0.132);
+    text-align: center;
+    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
 }
