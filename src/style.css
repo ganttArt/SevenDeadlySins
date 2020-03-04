@@ -1,0 +1,8 @@
+body {
+    background: url('./assets/Jheronimus_Bosch-The_Harrowing_of_Hell.jpg') no-repeat center center fixed black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
