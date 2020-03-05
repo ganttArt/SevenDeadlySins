@@ -1,48 +1,65 @@
 import React, { Component } from 'react';
 
 class Sins extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {value: 'gluttony'}
+    }
+
+
+    handleClick (sin){
+        this.setState({value: sin.currentTarget.value})
+        console.log(this.state)
+    }
+
+
     render() {
         return(
             <div className='sins-container'>
                 <h1 className='sins-title'>Sins</h1>
                 <div className='sins-buttons'>
-                    <form>
-                        <input
-                            className='gluttony-button'
-                            type='submit'
-                            value='Gluttony'
-                        />
-                        <input
-                            className='lust-button'
-                            type='submit'
-                            value='Lust'
-                        />
-                        <input
-                            className='greed-button'
-                            type='submit'
-                            value='Greed'
-                        />
-                        <input
-                            className='pride-button'
-                            type='submit'
-                            value='Pride'
-                        />
-                        <input
-                            className='sloth-button'
-                            type='submit'
-                            value='Sloth'
-                        />
-                        <input
-                            className='wrath-button'
-                            type='submit'
-                            value='Wrath'
-                        />
-                        <input
-                            className='envy-button'
-                            type='submit'
-                            value='Envy'
-                        />
-                    </form>
+                    <button 
+                        value={'gluttony'}
+                        onClick={(value) => this.handleClick(value)}
+                    >
+                        Gluttony
+                    </button>
+                    <button 
+                        value={'lust'}
+                        onClick={(value) => this.handleClick(value)}
+                    >
+                        Lust
+                    </button>
+                    <button 
+                        value={'greed'}
+                        onClick={(value) => this.handleClick(value)}
+                    >
+                        Greed
+                    </button>
+                    <button 
+                        value={'pride'}
+                        onClick={(value) => this.handleClick(value)}
+                    >
+                        Pride
+                    </button>
+                    <button 
+                        value={'sloth'}
+                        onClick={(value) => this.handleClick(value)}
+                    >
+                        Sloth
+                    </button>
+                    <button 
+                        value={'wrath'}
+                        onClick={(value) => this.handleClick(value)}
+                    >
+                        Wrath
+                    </button>
+                    <button 
+                        value={'envy'}
+                        onClick={(value) => this.handleClick(value)}
+                    >
+                        Envy
+                    </button>
                 </div>
                 <br/>
             </div>

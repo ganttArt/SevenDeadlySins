@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Sins from './Sins'
 
 class Quotes extends Component {
     render() {
