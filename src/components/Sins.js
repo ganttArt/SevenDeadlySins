@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import QuoteState from './QuoteState'
 
 class Sins extends Component {
     constructor(props) {
@@ -6,12 +7,10 @@ class Sins extends Component {
         this.state = {value: 'gluttony'}
     }
 
-
     handleClick (sin){
-        this.setState({value: sin.currentTarget.value})
-        console.log(this.state)
+        this.setState({value: sin.target.value})
+        console.log(this.state.value)
     }
-
 
     render() {
         return(

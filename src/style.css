@@ -48,15 +48,14 @@ body {
     margin: 0;
 }
 
-.sins-buttons {
-    
-}
+button {
+    font-size: 15px;
+    width: 80px;
+    margin: 15px;
 
-/* sins button styles */
-input[type=submit] {
-    font-size: 20px;
-    width: 100px;
-    margin: 20px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
 }
 
 
@@ -79,4 +78,10 @@ input[type=submit] {
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.random-button {
+    font-size: 13px;
+    width: 120px;
+    margin: 20px;
 }

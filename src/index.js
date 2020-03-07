@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Title from './components/Title';
 import Sins from './components/Sins';
-import Quotes from './components/Quotes';
+import Quote from './components/Quote';
+import QuoteState from './components/QuoteState'
 import "./style.css";
 
 class App extends Component {
@@ -11,10 +12,11 @@ class App extends Component {
       <div className="app-container">
         <Title/>
         <br/>
+        <QuoteState/>
         <Sins/>
         <br/>
         <br/>
-        <Quotes/>
+        <Quote/>
       </div>
     );
   }
