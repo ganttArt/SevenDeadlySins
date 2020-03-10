@@ -32,7 +32,7 @@ class QuoteState extends Component {
     //                                      "Envy is a littleness of soul, which cannot see beyond a certain point, and if it does not occupy the whole space, feels itself excluded.",
     //                                      "It is in the character of very few men to honor without envy a friend who has prospered."]}
 
-    handleStateChange = (value) => {
+    handleStateChange(value){
         this.setState({
             sin: value
         })
