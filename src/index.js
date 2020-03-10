@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Title from './components/Title';
 import Sins from './components/Sins';
 import Quote from './components/Quote';
-import QuoteState from './components/QuoteState'
+import QuoteState from './components/QuoteSinsContainer'
 import "./style.css";
 
 class App extends Component {
@@ -13,10 +13,10 @@ class App extends Component {
         <Title/>
         <br/>
         <QuoteState/>
-        <Sins/>
+        {/* <Sins/>
         <br/>
         <br/>
-        <Quote/>
+        <Quote/> */}
       </div>
     );
   }

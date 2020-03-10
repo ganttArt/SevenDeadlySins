@@ -69,6 +69,11 @@ button {
     -webkit-border-radius: 10px 10px 10px 10px;
 }
 
+.quote-title {
+    font-size: 40px;
+    margin: 10px;
+}
+
 .quote {
     background: rgba(233, 233, 233, 0.646);
     font-size: 20px;
