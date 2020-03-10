@@ -8,15 +8,13 @@ class Quote extends Component {
     render() {
         return(
             <div className='quotes-container'>
-                <h1 className='quote-title'>
-                    { this.props.dataFromParent }
-                </h1>
-                <p className='quote'>Quote goes here</p>
+                <h1 className='quote-title'>{ this.props.sin }</h1>
+                <p className='quote'>{ this.props.quote }</p>
                 <button
                     className='random-button'
                     // onClick={this.props.handler}
                     >
-                    Random Quote
+                    New Quote
                 </button>
             </div>
         )
