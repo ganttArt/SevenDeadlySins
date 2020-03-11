@@ -7,7 +7,7 @@ class Sins extends Component {
 
     render() {
         return(
-            <div className='sins-container'>
+            <div className='container'>
                 <h1 className='sins-title'>Sins</h1>
                 <div className='sins-buttons'>
                     <button onClick={() => this.props.handleStateChange('Gluttony')}>Gluttony</button>

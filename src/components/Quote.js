@@ -7,7 +7,7 @@ class Quote extends Component {
 
     render() {
         return(
-            <div className='quotes-container'>
+            <div className='container'>
                 <h1 className='quote-title'> { this.props.sin } </h1>
                 <p className='quote'> { this.props.quote } </p>
                 <button

@@ -6,9 +6,9 @@ body {
     background-size: cover;  
 }
 
-
-.title-container {
-    background: rgba(255, 255, 255, 0.132);
+/* for the 3 shown components */
+.container {
+    background: rgba(255, 255, 255, 0.231);
     text-align: center;
     box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
     
@@ -16,7 +16,8 @@ body {
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px; 
-  }
+}
+
 
 .title-welcome {
     font-size: 100px;
@@ -30,18 +31,10 @@ body {
 
 .title-welcome-subtitle-2 {
     font-size: 18px;
+    color: white;
+    margin-top: 10px;
 }
 
-
-.sins-container {
-    background: rgba(255, 255, 255, 0.132);
-    text-align: center;
-    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
-    
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-}
 
 .sins-title {
     font-size: 50px;
@@ -58,20 +51,15 @@ button {
     -webkit-border-radius: 5px 5px 5px 5px;
 }
 
-
-.quotes-container {
-    background: rgba(255, 255, 255, 0.132);
-    text-align: center;
-    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
-    
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
+button:hover {
+    background-color: rgba(112, 0, 0, 0.745);
+    color: rgb(255, 255, 255);
 }
 
+
 .quote-title {
-    font-size: 40px;
-    margin: 10px;
+    font-size: 35px;
+    margin: 8px;
 }
 
 .quote {
@@ -89,4 +77,9 @@ button {
     font-size: 13px;
     width: 120px;
     margin: 20px;
+}
+
+.random-button:hover {
+    background-color: rgba(0, 0, 0, 0.745);
+    color: rgb(255, 255, 255);
 }
