@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import QuoteState from './QuoteSinsContainer'
 
 class Sins extends Component {
     constructor(props) {
