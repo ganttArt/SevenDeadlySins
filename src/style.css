@@ -1,6 +1,6 @@
 body {
-    /* background: url('./assets/Jheronimus_Bosch-The_Harrowing_of_Hell.jpg') no-repeat center center fixed black; */
-    background: url('./assets/heaven-sky.jpg') no-repeat center center fixed white; 
+    background: url('./assets/Jheronimus_Bosch-The_Harrowing_of_Hell.jpg') no-repeat center center fixed black;
+    /* background: url('./assets/heaven-sky.jpg') no-repeat center center fixed white;  */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,23 +19,40 @@ body {
     -webkit-border-radius: 10px 10px 10px 10px; 
 }
 
+/* .top-bar {
+    position: absolute;
+    top:0; left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+} */
 
-.title-welcome {
-    font-size: 100px;
-    margin:0;
+.top-bar {
+    background: rgb(79, 0, 0);
+    position: absolute;
+    top:0; left: 0;
+    width: 100%;
+    height: 15%;
 }
 
-.title-welcome-subtitle-1 {
-    font-size: 30px;
-    margin:0;
+.top-bar-logo{
+    
 }
 
-.title-welcome-subtitle-2 {
-    font-size: 18px;
-    color: white;
-    margin-top: 10px;
+.top-bar-title {
+    
+    font-size: 60px;
+    margin-top: 5px;
 }
 
+.feeling-naughty-button {
+    
+}
+
+/*  */
+/*  */
+/*  */
 
 .sins-title {
     font-size: 50px;
@@ -98,17 +115,4 @@ button:hover {
     height: 100%;
     background: rgb(255, 255, 255);
     text-align: center;
-}
-
-.top-bar {
-    position: absolute;
-    top:0; left: 0;
-    width: 100%;
-    height: 50px;
-    background: rgb(255, 255, 255);
-    text-align: center;
-}
-
-.top-bar-title {
-    margin-top: 5px;
 }
