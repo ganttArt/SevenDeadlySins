@@ -51,7 +51,7 @@ class QuoteState extends Component {
 
     render() {
         return (
-            <div>
+            <div className="quote-and-state-container">
                 <Sins handleStateChange={this.handleStateChange}/>
                 <br/>
                 <br/>
