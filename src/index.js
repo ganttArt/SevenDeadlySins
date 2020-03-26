@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="app-container">
-        <TopBar/>
-        <br/>
         <QuoteState/>
+        <TopBar/>
+        <LeftSideBar/>
       </div>
     );
   }
