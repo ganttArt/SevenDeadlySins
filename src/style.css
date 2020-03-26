@@ -1,5 +1,5 @@
 body {
-    background: url('./components/assets/Jheronimus_Bosch-The_Harrowing_of_Hell.jpg') no-repeat center center fixed black;
+    background: url('./assets/hell/Jheronimus_Bosch-The_Harrowing_of_Hell.jpg') no-repeat center center fixed black;
     /* background: url('./assets/heaven-sky.jpg') no-repeat center center fixed white;  */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -19,10 +19,10 @@ button {
     -webkit-border-radius: 5px 5px 5px 5px;
 }
 
-button:hover {
+/* button:hover {
     background-color: rgba(112, 0, 0, 0.745);
     color: rgb(255, 255, 255);
-}
+} */
 
 
 /* for the 3 shown components */
@@ -76,9 +76,10 @@ button:hover {
     height: 15%;
 }
 
-.top-bar-logo{
-    color: rgb(212, 0, 0);
-    font-size: 60px;
+.top-bar-logo-button {
+    background: url('./assets/hell/H-HellLogo.png');
+    background-size: 100%;
+    border: none;
     margin: auto;
 }
 
@@ -128,23 +129,23 @@ button:hover {
 }
 
 #pentagram-button {
-    background: url('./components/assets/hell/logo_pentagram.png');
+    background: url('./assets/hell/logo_pentagram.png');
     background-size: 100%;
     margin-top: 40px;
 }
 
 #pitchfork-button {
-    background: url('./components/assets/hell/pitchfork.png');
+    background: url('./assets/hell/pitchfork.png');
     background-size: 100%;
 }
 
 #six-six-six-button {
-    background: url('./components/assets/hell/666.png');
+    background: url('./assets/hell/666.png');
     background-size: 100%;
 }
 
 #praying-hands-button {
-    background: url('./components/assets/hell/logo_praying_hands.png');
+    background: url('./assets/hell/logo_praying_hands.png');
     background-size: 100%;
 }
 
@@ -174,6 +175,11 @@ button:hover {
     color: rgb(212, 0, 0);
 }
 
+.sin-button:hover {
+    background-color: rgba(112, 0, 0, 0.745);
+    color: rgb(255, 255, 255);
+}
+
 .quote-title {
     font-size: 55px;
     margin-top: 10px;
@@ -198,10 +204,11 @@ button:hover {
     font-size: 13px;
     width: 140px;
     font-size: 20px;
-
-
     background-color: rgba(0, 0, 0, 0.745);
     color: rgb(255, 255, 255);
-
 }
 
+.new-quote-button:hover {
+    background-color: rgba(112, 0, 0, 0.745);
+    color: rgb(255, 255, 255);
+}
