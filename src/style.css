@@ -12,6 +12,7 @@ button {
     width: 90px;
     height: 90px;
     margin: 30px;
+    outline: none;
 
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
@@ -114,6 +115,39 @@ button:hover {
     text-align: center;
 }
 
+.left-bar-buttons {
+    width: 100px;
+    height: 100px;
+    border: none;
+    margin: 25px;
+    background-size: 100%;
+}
+
+.left-bar-buttons:hover {
+    filter: invert(100%);
+}
+
+#pentagram-button {
+    background: url('./components/assets/hell/logo_pentagram.png');
+    background-size: 100%;
+    margin-top: 40px;
+}
+
+#pitchfork-button {
+    background: url('./components/assets/hell/pitchfork.png');
+    background-size: 100%;
+}
+
+#six-six-six-button {
+    background: url('./components/assets/hell/666.png');
+    background-size: 100%;
+}
+
+#praying-hands-button {
+    background: url('./components/assets/hell/logo_praying_hands.png');
+    background-size: 100%;
+}
+
 /*  */
 /*  */
 /*  */
@@ -147,12 +181,13 @@ button:hover {
 }
 
 .quote {
-    background: rgba(233, 233, 233, 0.646);
+    background: rgba(233, 233, 233, 0.834);
     font-size: 25px;
     width: 70%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
+    border:  rgb(147, 0, 0) 2px solid;
 
     border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
