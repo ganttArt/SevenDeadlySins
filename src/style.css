@@ -19,49 +19,7 @@ button {
     -webkit-border-radius: 5px 5px 5px 5px;
 }
 
-/* button:hover {
-    background-color: rgba(112, 0, 0, 0.745);
-    color: rgb(255, 255, 255);
-} */
 
-
-/* for the 3 shown components */
-.container {
-    background: rgba(255, 255, 255, 0.231);
-    text-align: center;
-    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
-    
-    /* rounds corners */
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px; 
-}
-
-.sins-container{
-    background: rgba(255, 255, 255, 0.231);
-    text-align: center;
-    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
-    width: 50%;
-    
-    /* rounds corners */
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px; 
-}
-
-.quote-container{
-    background: rgba(255, 255, 255, 0.231);
-    text-align: center;
-    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
-    width: 50%;
-    margin-left: 5%;
-
-    
-    /* rounds corners */
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-}
 /*  */
 /*  */
 /*  */
@@ -79,7 +37,6 @@ button {
 .top-bar-logo-button {
     background: url('./assets/hell/H-HellLogo.png');
     background-size: 100%;
-    border: none;
     margin: auto;
 }
 
@@ -87,6 +44,7 @@ button {
     color: rgb(212, 0, 0);
     margin: auto;
     font-size: 60px;
+    text-align: center;
 }
 
 .feeling-naughty-button {
@@ -162,7 +120,21 @@ button {
     height: 75%;
 }
 
+/*  */
+/*  */
+/*  */
 
+.sins-container{
+    background: rgba(255, 255, 255, 0.231);
+    text-align: center;
+    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
+    width: 50%;
+    
+    /* rounds corners */
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px; 
+}
 
 .sins-title {
     font-size: 55px;
@@ -178,6 +150,23 @@ button {
 .sin-button:hover {
     background-color: rgba(112, 0, 0, 0.745);
     color: rgb(255, 255, 255);
+}
+
+/*  */
+/*  */
+/*  */
+
+.quote-container{
+    background: rgba(255, 255, 255, 0.231);
+    text-align: center;
+    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0);
+    width: 50%;
+    margin-left: 5%;
+
+    /* rounds corners */
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
 }
 
 .quote-title {

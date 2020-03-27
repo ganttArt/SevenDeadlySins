@@ -1,0 +1,81 @@
+@media screen and (min-width: 1270px){
+    .top-bar-logo-button {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .left-side-bar{
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+        transition: transform 0.3s ease;
+    }
+    
+    .quote-and-state-container{
+        left: 5%;
+        width: 90%;
+    }
+
+    .top-bar-logo-button {
+        width: 50px;
+        height: 50px;
+        background: url('./assets/hell/Hamburger_icon_Hell.png');
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1055px) {
+    .quote-and-state-container {
+        display: inline-block;
+        top: 18%;
+        left: 3%;
+        width: 94%;
+    }
+
+    .quote-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .sins-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .feeling-naughty-button {
+        width: 80px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .top-bar-title {
+        font-size: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .feeling-naughty-button {
+        margin-right: 10px;
+    }
+    .top-bar-logo-button{
+        margin-left: 10px;
+    }
+}
+
+/* For Phone Displays */
+@media screen and (max-width: 420px) {
+    .top-bar-title {
+        font-size: 40px;
+    }
+
+    .feeling-naughty-button {
+        margin-right: 5px;
+        font-size: 15px;
+        width: 75px;
+        height: 60px;
+    }
+}
