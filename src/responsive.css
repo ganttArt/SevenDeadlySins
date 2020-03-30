@@ -45,33 +45,8 @@
     }
 }
 
-@media screen and (max-width: 720px) {
-    /* .feeling-naughty-button {
-        width: 80px;
-        height: 60px;
-    } */
-}
-
-@media screen and (max-width: 655px) {
-    .top-bar-title {
-        font-size: 50px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    .feeling-naughty-button {
-        margin-right: 15px;
-    }
-    .top-bar-logo-button{
-        margin-left: 15px;
-    }
-}
-
 /* For Phone Displays */
 @media screen and (max-width: 420px) {
-    .top-bar-title {
-        font-size: 60px;
-    }
-
     .feeling-naughty-button {
         font-size: 12px;
         width: 50px;

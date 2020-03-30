@@ -19,11 +19,9 @@ button {
     -webkit-border-radius: 5px 5px 5px 5px;
 }
 
-
 /*  */
 /*  */
 /*  */
-
 
 .top-bar {
     display: flex;
@@ -38,12 +36,13 @@ button {
     background: url('./assets/hell/H-HellLogo.png');
     background-size: 100%;
     margin: auto;
+    margin-left: 4%;
 }
 
 .top-bar-title {
     color: rgb(212, 0, 0);
     margin: auto;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -53,6 +52,7 @@ button {
     background: url('./assets/hell/Heaven-Symbol-Blue.png');
     background-size: 100%;
     margin: auto;
+    margin-right: 4%;
 }
 
 .feeling-naughty-button:hover {
