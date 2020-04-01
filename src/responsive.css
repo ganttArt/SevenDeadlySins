@@ -24,10 +24,11 @@
     }
 }
 
+/* For all Vertically-Oriented design sizes */
 @media screen and (max-width: 1055px) {
     .quote-and-state-container {
         display: inline-block;
-        top: 18%;
+        top: 16%;
         left: 3%;
         width: 94%;
     }
@@ -38,11 +39,46 @@
         width: 100%;
     }
 
+    .quote-title {
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-size: 45px;
+    }
+
+    .quote {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 85%;
+    }
+
+    .new-quote-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 45px;
+        width: 110px;
+        font-size: 16px;
+    }
+
     .sins-container {
         margin-left: 0;
         margin-right: 0;
         width: 100%;
     }
+
+    .sins-title {
+        font-size: 50px;
+    }
+
+    .sin-button {
+        margin: 20px;
+        margin-top: 5px;
+        /* margin-bottom: 10px; */
+        width: 70px;
+        height: 70px;
+        font-size: 15px;
+    }
+
     .credits-container {
         background: rgb(0, 0, 0);
         display: flex;
@@ -51,7 +87,7 @@
         width: 100%;
         height: 30px;
         color: white;
-        margin-top: 5px;
+        margin-top: 10px;
         order: 2;
     }
 
@@ -62,15 +98,17 @@
         background: url('./assets/Copywright.png');
         background-size: 100%;
         filter: invert(100%);
-        margin-bottom: 0px;
-        margin-top: 6px;
-        margin-left: 10px;
-        margin-right: 5px;
+        margin: 6px 5px 0px 10px;
+        border: none;
     }
 
     #name {
         display: flex;
         margin: 6px 0px 0px 0px;
+    }
+
+    #links {
+        display: flex;
     }
 
     #linkedin{
@@ -86,16 +124,17 @@
     }
 }
 
+@media screen and (max-width: 695px) {
+
+}
+
+
 /* For Phone Displays */
 @media screen and (max-width: 420px) {
     .feeling-naughty-button {
         font-size: 12px;
         width: 50px;
         height: 50px;
-    }
-
-    .quote-and-state-container {
-        top: 16%
     }
 
     .quote-title {
@@ -130,5 +169,16 @@
         width: 70px;
         height: 70px;
         font-size: 15px;
+    }
+}
+
+/* Extra skinny displays: Expand credits downward */
+@media screen and (max-width: 304px) {
+    .credits-container {
+        height: 60px;
+    }
+
+    #links {
+        margin: 0px 0px 5px 5px;
     }
 }

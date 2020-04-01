@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import QuoteState from './components/QuoteSinsContainer'
 import LeftSideBar from './components/LeftSideBar'
 import TopBar from './components/TopBar'
-import Credits from './components/Credits'
 
 import "./style.css";
 import "./responsive.css";
