@@ -1,7 +1,19 @@
-@media screen and (min-width: 1270px){
+@media screen and (min-width: 1271px){
     .top-bar-logo-button {
         border: none;
     }
+
+    .quote-and-sins-container {
+        max-width: 82%;
+        margin-left: 13%;
+    }
+
+    .left-side-bar{
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        transition: transform 0.3s ease;
+    }
+
 }
 
 @media screen and (max-width: 1270px) {
@@ -9,11 +21,6 @@
         -webkit-transform: translate(-300px, 0);
         transform: translate(-300px, 0);
         transition: transform 0.3s ease;
-    }
-    
-    .quote-and-state-container{
-        left: 5%;
-        width: 90%;
     }
 
     .top-bar-logo-button {
@@ -24,13 +31,30 @@
     }
 }
 
-/* For all Vertically-Oriented design sizes */
+@media screen and (min-width: 1055px) {
+    .quote-and-sins-container{
+        left: 5%;
+        width: 95%;
+    }
+    
+    .sins-container {
+        width: 45%;
+        margin-right: 5%;
+    }
+    .quote-container {
+        width: 45%;
+    }
+}
+
+/* Max size for all Vertically-Oriented design schemes */
 @media screen and (max-width: 1055px) {
-    .quote-and-state-container {
+    .quote-and-sins-container {
         display: inline-block;
+        position: absolute;
         top: 16%;
         left: 3%;
         width: 94%;
+        height: 20px;
     }
 
     .quote-container {
@@ -49,7 +73,7 @@
         font-size: 23px;
         margin-top: 10px;
         margin-bottom: 0px;
-        width: 85%;
+        width: 65%;
     }
 
     .new-quote-button {
@@ -72,62 +96,40 @@
 
     .sin-button {
         margin: 20px;
-        margin-top: 5px;
-        /* margin-bottom: 10px; */
-        width: 70px;
-        height: 70px;
-        font-size: 15px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 80px;
+        height: 80px;
+        font-size: 17px;
     }
 
-    .credits-container {
-        background: rgb(0, 0, 0);
-        display: flex;
-        flex-wrap: wrap;
-        right: 0px;
-        width: 100%;
-        height: 30px;
-        color: white;
-        margin-top: 10px;
-        order: 2;
-    }
-
-    #copywright-symbol {
-        display: flex;
-        height: 15px;
-        width: 15px;
-        background: url('./assets/Copywright.png');
-        background-size: 100%;
-        filter: invert(100%);
-        margin: 6px 5px 0px 10px;
-        border: none;
-    }
-
-    #name {
-        display: flex;
-        margin: 6px 0px 0px 0px;
-    }
-
-    #links {
-        display: flex;
-    }
-
-    #linkedin{
-        display: flex;
-        margin: 6px 10px 0px 10px;
-        color: rgb(212, 0, 0);
-    }
-
-    #github {
-        display: flex;
-        margin: 6px 10px 0px 0px;
-        color: rgb(212, 0, 0);
-    }
-}
-
-@media screen and (max-width: 695px) {
 
 }
 
+@media screen and (max-width: 891px) {
+    .sin-button {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 802px) {
+    .quote {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    #sloth-button {
+        margin-bottom: 0px;
+    }
+
+    #wrath-button {
+        margin-bottom: 0px;
+    }
+    .quote {
+        width: 85%;
+    }
+}
 
 /* For Phone Displays */
 @media screen and (max-width: 420px) {
@@ -169,6 +171,59 @@
         width: 70px;
         height: 70px;
         font-size: 15px;
+    }
+
+    .credits-container {
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-wrap: wrap;
+        right: 0px;
+        width: 100%;
+        height: 30px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    #copywright-symbol {
+        display: flex;
+        height: 15px;
+        width: 15px;
+        background: url('./assets/Copywright.png');
+        background-size: 100%;
+        filter: invert(100%);
+        margin: 6px 5px 0px 10px;
+        border: none;
+    }
+
+    #name {
+        display: flex;
+        margin: 6px 0px 0px 0px;
+    }
+
+    #links {
+        display: flex;
+    }
+
+    #linkedin{
+        display: flex;
+        margin: 6px 10px 0px 10px;
+        color: rgb(212, 0, 0);
+    }
+
+    #github {
+        display: flex;
+        margin: 6px 10px 0px 0px;
+        color: rgb(212, 0, 0);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #sloth-button {
+        margin-bottom: 15px;
+    }
+
+    #wrath-button {
+        margin-bottom: 15px;
     }
 }
 

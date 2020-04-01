@@ -14,8 +14,8 @@ class Sins extends Component {
                     <button className='sin-button' onClick={() => this.props.handleStateChange('Lust')}>Lust</button>
                     <button className='sin-button' onClick={() => this.props.handleStateChange('Greed')}>Greed</button>
                     <button className='sin-button' onClick={() => this.props.handleStateChange('Pride')}>Pride</button>
-                    <button className='sin-button' onClick={() => this.props.handleStateChange('Sloth')}>Sloth</button>
-                    <button className='sin-button' onClick={() => this.props.handleStateChange('Wrath')}>Wrath</button>
+                    <button className='sin-button' id='sloth-button' onClick={() => this.props.handleStateChange('Sloth')}>Sloth</button>
+                    <button className='sin-button' id='wrath-button' onClick={() => this.props.handleStateChange('Wrath')}>Wrath</button>
                     <button className='sin-button' id='envy-button' onClick={() => this.props.handleStateChange('Envy')}>Envy</button>
                 </div>
                 <br/>

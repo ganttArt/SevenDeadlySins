@@ -52,7 +52,7 @@ class QuoteState extends Component {
 
     render() {
         return (
-            <div className="quote-and-state-container">
+            <div className="quote-and-sins-container">
                 <Quote sin={this.state.sin} quote={this.state.quote} handleStateChange={this.handleStateChange}/>
                 <Sins handleStateChange={this.handleStateChange}/>
                 <Credits/>
