@@ -52,4 +52,40 @@
         width: 50px;
         height: 50px;
     }
+
+    .quote-and-state-container {
+        top: 16%
+    }
+
+    .quote-title {
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-size: 45px;
+    }
+
+    .quote {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 85%;
+    }
+
+    .new-quote-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 55px;
+        width: 130px;
+    }
+
+    .sins-title {
+        font-size: 50px;
+    }
+
+    .sin-button {
+        margin: 20px;
+        margin-top: 5px;
+        width: 70px;
+        height: 70px;
+        font-size: 15px;
+    }
 }
