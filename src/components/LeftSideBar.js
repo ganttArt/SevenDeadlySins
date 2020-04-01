@@ -19,7 +19,11 @@ class LeftSideBar extends Component{
               id='six-six-six-button'
               onClick={() => alert('Religion is for people who fear hell.\nSpirituality is for people who have been there.\n - David Bowie')}
               />
-            <button className="left-bar-buttons" id='praying-hands-button'/>
+            <button
+              className="left-bar-buttons"
+              id='praying-hands-button'
+              onClick = {() => alert("This button will someday take you to Heaven.\nUnfortunately for you, Heaven is not quite ready for you yet.")}
+            />
           </div>
         );
     }

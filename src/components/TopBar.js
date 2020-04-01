@@ -9,7 +9,10 @@ class TopBar extends Component{
               onClick = {() => alert("Congratulations!\nYou found the hidden button!\nAnd because you're in hell, your prize is eternal suffering.\nThanks for visiting!")}  
             />
             <h1 className="top-bar-title">Hell</h1>
-            <button className="feeling-naughty-button"></button>
+            <button
+              className="feeling-naughty-button"
+              onClick = {() => alert("This button will someday take you to Heaven.\nUnfortunately for you, Heaven is not quite ready for you yet.")}
+            />
           </header>
         );
     }
