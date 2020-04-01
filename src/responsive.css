@@ -1,3 +1,4 @@
+/* Left sidebar added for greater than 1270px */
 @media screen and (min-width: 1271px){
     .top-bar-logo-button {
         border: none;
@@ -16,6 +17,7 @@
 
 }
 
+/* Left sidebar taken away for greater than 1270px */
 @media screen and (max-width: 1270px) {
     .left-side-bar{
         -webkit-transform: translate(-300px, 0);
@@ -31,6 +33,7 @@
     }
 }
 
+/* Quote and Sins components reshaping */
 @media screen and (min-width: 1055px) {
     .quote-and-sins-container{
         left: 5%;
@@ -106,18 +109,21 @@
 
 }
 
+/* Minor Breakpoint: button margins */
 @media screen and (max-width: 891px) {
     .sin-button {
         margin-bottom: 15px;
     }
 }
 
+/* Minor Breakpoint: quote width */
 @media screen and (max-width: 802px) {
     .quote {
         width: 75%;
     }
 }
 
+/* Minor Breakpoint: button margins, quote width */
 @media screen and (max-width: 766px) {
     #sloth-button {
         margin-bottom: 0px;
@@ -217,6 +223,7 @@
     }
 }
 
+/* Minor Breakpoint: button margins */
 @media screen and (max-width: 350px) {
     #sloth-button {
         margin-bottom: 15px;
@@ -227,7 +234,7 @@
     }
 }
 
-/* Extra skinny displays: Expand credits downward */
+/* Minor Breakpoint: expand credits downward */
 @media screen and (max-width: 304px) {
     .credits-container {
         height: 60px;
