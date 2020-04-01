@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Quote from './Quote'
 import Sins from './Sins'
+import Credits from './Credits'
 
 class QuoteState extends Component {
     constructor(props) {
@@ -54,6 +55,7 @@ class QuoteState extends Component {
             <div className="quote-and-state-container">
                 <Quote sin={this.state.sin} quote={this.state.quote} handleStateChange={this.handleStateChange}/>
                 <Sins handleStateChange={this.handleStateChange}/>
+                <Credits/>
             </div>
         )
     }
