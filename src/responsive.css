@@ -1,0 +1,207 @@
+/* Max size for all Vertically-Oriented design schemes */
+@media screen and (max-width: 1100px) {
+    .quote-and-sins-container {
+        display: inline-block;
+        position: absolute;
+        top: 165px;
+        left: 3%;
+        width: 94%;
+        height: 20px;
+    }
+
+    .quote-container {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .quote-title {
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-size: 45px;
+    }
+
+    .quote {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 65%;
+    }
+
+    .new-quote-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 45px;
+        width: 110px;
+        font-size: 16px;
+    }
+
+    .sins-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .sins-title {
+        font-size: 50px;
+    }
+
+    .sin-button {
+        margin: 20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 80px;
+        height: 80px;
+        font-size: 17px;
+    }
+}
+
+/* Minor Breakpoint: button margins */
+@media screen and (max-width: 891px) {
+    .sin-button {
+        margin-bottom: 15px;
+    }
+}
+
+/* Minor Breakpoint: quote width */
+@media screen and (max-width: 802px) {
+    .quote {
+        width: 75%;
+    }
+}
+
+/* Minor Breakpoint: button margins, quote width */
+@media screen and (max-width: 766px) {
+    #sloth-button {
+        margin-bottom: 0px;
+    }
+
+    #wrath-button {
+        margin-bottom: 0px;
+    }
+    .quote {
+        width: 85%;
+    }
+}
+
+/* Minor Breakpoint: narrow vertical placement margins */
+@media screen and (max-width: 511px) {
+    .quote-and-sins-container {
+        top: 145px;
+    }
+    .quote-container {
+        margin-bottom: 20px;
+    }
+
+    .sins-container {
+        margin-bottom: 20px;
+    }
+
+    .feeling-naughty-button {
+        font-size: 12px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .quote-title {
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-size: 45px;
+    }
+
+    .quote {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 85%;
+    }
+
+    .new-quote-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 45px;
+        width: 110px;
+        font-size: 16px;
+    }
+
+    .sins-title {
+        font-size: 50px;
+    }
+}
+
+/* For Phone Displays */
+@media screen and (max-width: 420px) {
+    .sin-button {
+        margin: 20px;
+        margin-top: 5px;
+        /* margin-bottom: 10px; */
+        width: 70px;
+        height: 70px;
+        font-size: 15px;
+    }
+    .credits-container {
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-wrap: wrap;
+        right: 0px;
+        width: 100%;
+        height: 30px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    #copywright-symbol {
+        display: flex;
+        height: 15px;
+        width: 15px;
+        background: url('./assets/Copywright.png');
+        background-size: 100%;
+        filter: invert(100%);
+        margin: 6px 5px 0px 10px;
+        border: none;
+    }
+
+    #name {
+        display: flex;
+        margin: 6px 0px 0px 0px;
+    }
+
+    #links {
+        display: flex;
+    }
+
+    #linkedin{
+        display: flex;
+        margin: 6px 10px 0px 10px;
+        color: rgb(212, 0, 0);
+    }
+
+    #github {
+        display: flex;
+        margin: 6px 10px 0px 0px;
+        color: rgb(212, 0, 0);
+    }
+}
+
+/* Minor Breakpoint: button margins */
+@media screen and (max-width: 350px) {
+    #sloth-button {
+        margin-bottom: 15px;
+    }
+
+    #wrath-button {
+        margin-bottom: 15px;
+    }
+}
+
+/* Minor Breakpoint: expand credits downward */
+@media screen and (max-width: 304px) {
+    .credits-container {
+        height: 60px;
+    }
+
+    #links {
+        margin: 0px 0px 5px 5px;
+    }
+}

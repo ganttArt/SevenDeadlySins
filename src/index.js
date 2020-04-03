@@ -1,22 +1,19 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Title from './components/Title';
-import Sins from './components/Sins';
-import Quote from './components/Quote';
 import QuoteState from './components/QuoteSinsContainer'
+import TopBar from './components/TopBar'
+import BurgerMenu from './components/BurgerMenu'
+
 import "./style.css";
+import "./responsive.css";
 
 class App extends Component {
   render() {
     return (
       <div className="app-container">
-        <Title/>
-        <br/>
         <QuoteState/>
-        {/* <Sins/>
-        <br/>
-        <br/>
-        <Quote/> */}
+        <TopBar/>
+        <BurgerMenu/>
       </div>
     );
   }

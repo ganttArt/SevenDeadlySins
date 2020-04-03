@@ -7,11 +7,11 @@ class Quote extends Component {
 
     render() {
         return(
-            <div className='container'>
+            <div className='quote-container'>
                 <h1 className='quote-title'> { this.props.sin } </h1>
                 <p className='quote'> { this.props.quote } </p>
                 <button
-                    className='random-button'
+                    className='new-quote-button'
                     onClick={() => this.props.handleStateChange(this.props.sin)}
                     >
                     New Quote
