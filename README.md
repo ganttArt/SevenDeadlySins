@@ -1,4 +1,4 @@
-Current Build on Heroku at https://seven-deadly-sins-2020-03-11.herokuapp.com/
+Current Build on Heroku at https://seven-deadly-sins-gantt.herokuapp.com/
 
 Hamburger Menu on Desktop Layout
 ![](HamburgerMenu.png)
