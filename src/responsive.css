@@ -151,20 +151,9 @@
         margin-top: 10px;
     }
 
-    #copywright-symbol {
-        display: flex;
-        height: 15px;
-        width: 15px;
-        background: url('./assets/Copywright.png');
-        background-size: 100%;
-        filter: invert(100%);
-        margin: 6px 5px 0px 10px;
-        border: none;
-    }
-
     #name {
         display: flex;
-        margin: 6px 0px 0px 0px;
+        margin: 6px 0px 0px 10px;
     }
 
     #links {
@@ -202,6 +191,9 @@
     }
 
     #links {
-        margin: 0px 0px 5px 5px;
+        margin: 0px 0px 5px 10px;
+    }
+    #linkedin {
+        margin-left: 0px;
     }
 }
