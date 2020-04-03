@@ -142,8 +142,8 @@
     }
 
     #gluttony-button {
-        word-wrap: break-word;
-        /* font-size: 14px; */
+        /* word-wrap: break-word; */
+        font-size: 14px;
     }
 
     .credits-container {
