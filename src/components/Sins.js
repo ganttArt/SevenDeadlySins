@@ -10,7 +10,7 @@ class Sins extends Component {
             <div className='sins-container'>
                 <h1 className='sins-title'>Sins</h1>
                 <div>
-                    <button className='sin-button' onClick={() => this.props.handleStateChange('Gluttony')}>Gluttony</button>
+                    <button className='sin-button' id='gluttony-button' onClick={() => this.props.handleStateChange('Gluttony')}>Gluttony</button>
                     <button className='sin-button' onClick={() => this.props.handleStateChange('Lust')}>Lust</button>
                     <button className='sin-button' onClick={() => this.props.handleStateChange('Greed')}>Greed</button>
                     <button className='sin-button' onClick={() => this.props.handleStateChange('Pride')}>Pride</button>

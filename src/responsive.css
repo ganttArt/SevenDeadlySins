@@ -140,6 +140,12 @@
         height: 70px;
         font-size: 15px;
     }
+
+    #gluttony-button {
+        word-wrap: break-word;
+        font-size: 14px;
+    }
+
     .credits-container {
         background: rgb(0, 0, 0);
         display: flex;
