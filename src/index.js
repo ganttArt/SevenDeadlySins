@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import QuoteState from './components/QuoteSinsContainer'
-import LeftSideBar from './components/LeftSideBar'
 import TopBar from './components/TopBar'
+import BurgerMenu from './components/BurgerMenu'
 
 import "./style.css";
 import "./responsive.css";
@@ -13,7 +13,7 @@ class App extends Component {
       <div className="app-container">
         <QuoteState/>
         <TopBar/>
-        <LeftSideBar/>
+        <BurgerMenu/>
       </div>
     );
   }

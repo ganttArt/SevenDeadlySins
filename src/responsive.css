@@ -1,35 +1,8 @@
-/* Left sidebar added for greater than 1270px */
+
 @media screen and (min-width: 1271px){
-    .top-bar-logo-button {
-        border: none;
-    }
-
     .quote-and-sins-container {
-        max-width: 82%;
-        margin-left: 13%;
-    }
-
-    .left-side-bar{
-        -webkit-transform: translate(0, 0);
-        transform: translate(0, 0);
-        transition: transform 0.3s ease;
-    }
-
-}
-
-/* Left sidebar taken away for greater than 1270px */
-@media screen and (max-width: 1270px) {
-    .left-side-bar{
-        -webkit-transform: translate(-300px, 0);
-        transform: translate(-300px, 0);
-        transition: transform 0.3s ease;
-    }
-
-    .top-bar-logo-button {
-        width: 50px;
-        height: 50px;
-        background: url('./assets/hell/Hamburger_icon_Hell.png');
-        background-size: 100%;
+        /* max-width: 82%;
+        margin-left: 13%; */
     }
 }
 
