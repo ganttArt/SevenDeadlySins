@@ -1,13 +1,13 @@
 Current Build on Heroku at https://seven-deadly-sins-2020-03-11.herokuapp.com/
 
-Mobile Layout
-![](MobileView.png)
-
 Hamburger Menu on Desktop Layout
 ![](HamburgerMenu.png)
 
 Desktop Layout
 ![](DesktopView.png)
+
+Mobile Layout<br />
+![](MobileView.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
